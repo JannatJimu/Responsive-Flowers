@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flowers</title>
+    <link rel="shortcut icon" href="assets/deal-ana.png" type="image/x-icon">
+    <!-- daisyui font -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- Noto Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/1707522de5.js" crossorigin="anonymous"></script>
+    <style>
+        .noto-serif-font {
+            font-family: "Noto Serif", serif;
+
+        }
+    </style>
+
+</head>
+
+<body class="noto-serif-font">
+
+
+    <header>
+        <nav class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+
+            <img class="w-[135px] md:w-[82px]" src="./assets/logo.png">
+
+            <ul class="flex items-center gap-6">
+                <div class="hidden lg:flex gap-6 items-center">
+                    <li class="font-medium cursor-pointer">Home</li>
+                    <li class="font-medium cursor-pointer">Shop</li>
+                    <li class="font-medium cursor-pointer">About us</li>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <li class="font-medium cursor-pointer">Cart ($56)</li>
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+
+<section class="max-w-7xl mx-auto lg:px-4 mt-10 flex flex-col md:flex-row items-center justify-between">
+    <div class="hidden lg:flex-1 lg:flex flex-col space-y-3">
+        <h2 class="font-bold text-5xl leading-tight">
+            ALWAYS <span class="text-[#E95A08]">FRESH</span><br>
+            <span class="text-[#E95A08]">FLOWERS</span>
+        </h2>
+        <p class="font-light text-gray-700 text-base">
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+            blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+        </p>
+    </div>
+
+    <div class="flex-1 flex justify-center lg:justify-end">
+        <img class="w-full max-w-full md:max-w-[450px] lg:max-w-[500px] object-contain"
+            src="./assets/hero-flower.png" alt="">
+    </div>
+
+</section>
+
+</body>
+</html>
